@@ -1,0 +1,14 @@
+{
+  "name": "quic-connection-migration-validator",
+  "version": "1.0.0",
+  "description": "事件驱动的 QUIC 连接迁移校验器：只验证事件序列，不处理真实网络包",
+  "type": "module",
+  "main": "src/validator.js",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
